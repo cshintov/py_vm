@@ -59,7 +59,9 @@ def binary_modulo(cur):
 
 def print_item(cur):
     """ prints the top of the stack """
-    print stk.get_top_n(0),
+    # stk.get_top_n(0),
+    item = stk.pop()
+    print item
     return cur + 1
 
 
@@ -105,6 +107,7 @@ def store_name(code_obj, cur):
     """ stores top to co_names[oparg] """
     oparg = code_obj.get_oparg(cur)
     code_obj.names[oparg] = stk.pop()
+    print code_obj.names
     return cur + 3
 
 

@@ -63,6 +63,7 @@ class Code(object):
                     code.append(pyclist[cur])
                     cur += 1
             else:
+                # if function definition
                 code.append(opc.MAKE_FUNCTION)
                 code.extend([0] * 8)
                 cur += 9
@@ -175,16 +176,17 @@ class Code(object):
     def view(self):
         """ shows the fields of the code object """
         print "****************"
-        print utl.show_pyc(self.code)
+        print 'length of code ', len(self.code)
+        print utl.show_pyc(self.code, hex)
         print len(self.consts), 'constants'
         for idx in range(len(self.consts)):
             if type(self.consts[idx]) == int:
-                print self.consts[idx]
+                print idx, self.consts[idx]
             else:
+                print idx, 'non int constant'
                 self.consts[idx].view()
-        print self.names
-        print self.varnames
-        print self.name
-        print 'global names'
-        print names
+        print 'names ', self.names
+        print 'varnames ', self.varnames
+        print 'name ', self.name
+        print 'global names ', names
         print '--------------------------------'

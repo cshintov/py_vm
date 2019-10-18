@@ -9,8 +9,15 @@ from opcodes import CALL_FUNCTION, RETURN_VALUE
 
 def call_function(code_obj, cur):
     """ executes the function """
+    print 'Function exection...'
+    # stk.print_stack()
     argc = code_obj.get_oparg(cur)
+
+    # get the functions code object from stack
     func = stk.get_top_n(argc)
+    print 'arg count: ', argc
+    # stk.print_stack()
+    print 'function object', func
 
     # backup func's local vars
     bkup_locals = func.varnames[:]
@@ -33,6 +40,11 @@ def execute(code_obj):
     cur = 0
     while not code_obj.is_end(cur):
         opcode = code_obj.get_opcode(cur)
+        try:
+            print operations[opcode].__name__
+            print hex(opcode)
+        except:
+            pass
 
         if opcode == CALL_FUNCTION:
             cur = call_function(code_obj, cur)
@@ -50,7 +62,8 @@ def execute(code_obj):
         except KeyError:
             msg = 'opcode {1} at {0} not found'.format(cur, hex(opcode))
             raise Exception(msg)
-
+        stk.print_stack()
+        print 
 
 def execute_pyc(pyc_file):
     """ executes the pyc file """
@@ -59,6 +72,7 @@ def execute_pyc(pyc_file):
 
     # getting the codeobject from the pyc list
     code_obj = Code(pyc_lst)
+    code_obj.view()
 
     # executing the code object
     print

@@ -23,9 +23,12 @@ def get_pyc_list(filename):
     return lst
 
 
-def show_pyc(lst):
+def show_pyc(lst, encode=None):
     """ shows the pyclist in hex format """
-    return [hex(num) for num in lst]
+    if not encode:
+        return [num for num in lst]
+
+    return [encode(num) for num in lst]
 
 
 def decimal(pyc_list, cur, num_byte=2):

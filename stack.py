@@ -26,4 +26,4 @@ class Stack(object):
 
     def print_stack(self):
         """ prints the stack """
-        print self.stack
+        print 'Stack{' + str(self.stack) + '}'

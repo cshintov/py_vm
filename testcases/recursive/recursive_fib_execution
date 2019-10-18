@@ -1,0 +1,1341 @@
+****************
+length of code  28
+['0x84', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x64', '0x1', '0x0', '0x47', '0x65', '0x0', '0x0', '0x64', '0x1', '0x0', '0x83', '0x1', '0x0', '0x47', '0x48', '0x64', '0x2', '0x0', '0x53']
+3 constants
+0 non int constant
+****************
+length of code  60
+['0x7c', '0x0', '0x0', '0x64', '0x1', '0x0', '0x6b', '0x2', '0x0', '0x72', '0x10', '0x0', '0x64', '0x1', '0x0', '0x53', '0x7c', '0x0', '0x0', '0x64', '0x2', '0x0', '0x6b', '0x2', '0x0', '0x72', '0x20', '0x0', '0x64', '0x2', '0x0', '0x53', '0x74', '0x0', '0x0', '0x7c', '0x0', '0x0', '0x64', '0x2', '0x0', '0x18', '0x83', '0x1', '0x0', '0x74', '0x0', '0x0', '0x7c', '0x0', '0x0', '0x64', '0x3', '0x0', '0x18', '0x83', '0x1', '0x0', '0x17', '0x53']
+4 constants
+0 0
+1 0
+2 1
+3 2
+names  {0: [<code.Code object at 0x7fb53e39f410>]}
+varnames  [0]
+name  0
+global names  {0: [<code.Code object at 0x7fb53e39f410>], 1: [0], 2: [0]}
+--------------------------------
+1 6
+2 0
+names  {0: [<code.Code object at 0x7fb53e39f410>]}
+varnames  []
+name  2
+global names  {0: [<code.Code object at 0x7fb53e39f410>], 1: [0], 2: [0]}
+--------------------------------
+
+make_function
+0x84
+Stack{[]}
+
+load_const
+0x64
+Stack{[6]}
+
+print_item
+0x47
+6
+Stack{[]}
+
+load_name
+0x65
+Stack{[<code.Code object at 0x7fb53e39f410>]}
+
+load_const
+0x64
+Stack{[<code.Code object at 0x7fb53e39f410>, 6]}
+
+Function exection...
+arg count:  1
+function object <code.Code object at 0x7fb53e39f410>
+load_fast
+0x7c
+Stack{[6]}
+
+load_const
+0x64
+Stack{[6, 0]}
+
+compare_op
+0x6b
+Stack{[False]}
+
+pop_jump_if_false
+0x72
+Stack{[]}
+
+load_fast
+0x7c
+Stack{[6]}
+
+load_const
+0x64
+Stack{[6, 1]}
+
+compare_op
+0x6b
+Stack{[False]}
+
+pop_jump_if_false
+0x72
+Stack{[]}
+
+load_global
+0x74
+Stack{[<code.Code object at 0x7fb53e39f410>]}
+
+load_fast
+0x7c
+Stack{[<code.Code object at 0x7fb53e39f410>, 6]}
+
+load_const
+0x64
+Stack{[<code.Code object at 0x7fb53e39f410>, 6, 1]}
+
+binary_sub
+0x18
+Stack{[<code.Code object at 0x7fb53e39f410>, 5]}
+
+Function exection...
+arg count:  1
+function object <code.Code object at 0x7fb53e39f410>
+load_fast
+0x7c
+Stack{[5]}
+
+load_const
+0x64
+Stack{[5, 0]}
+
+compare_op
+0x6b
+Stack{[False]}
+
+pop_jump_if_false
+0x72
+Stack{[]}
+
+load_fast
+0x7c
+Stack{[5]}
+
+load_const
+0x64
+Stack{[5, 1]}
+
+compare_op
+0x6b
+Stack{[False]}
+
+pop_jump_if_false
+0x72
+Stack{[]}
+
+load_global
+0x74
+Stack{[<code.Code object at 0x7fb53e39f410>]}
+
+load_fast
+0x7c
+Stack{[<code.Code object at 0x7fb53e39f410>, 5]}
+
+load_const
+0x64
+Stack{[<code.Code object at 0x7fb53e39f410>, 5, 1]}
+
+binary_sub
+0x18
+Stack{[<code.Code object at 0x7fb53e39f410>, 4]}
+
+Function exection...
+arg count:  1
+function object <code.Code object at 0x7fb53e39f410>
+load_fast
+0x7c
+Stack{[4]}
+
+load_const
+0x64
+Stack{[4, 0]}
+
+compare_op
+0x6b
+Stack{[False]}
+
+pop_jump_if_false
+0x72
+Stack{[]}
+
+load_fast
+0x7c
+Stack{[4]}
+
+load_const
+0x64
+Stack{[4, 1]}
+
+compare_op
+0x6b
+Stack{[False]}
+
+pop_jump_if_false
+0x72
+Stack{[]}
+
+load_global
+0x74
+Stack{[<code.Code object at 0x7fb53e39f410>]}
+
+load_fast
+0x7c
+Stack{[<code.Code object at 0x7fb53e39f410>, 4]}
+
+load_const
+0x64
+Stack{[<code.Code object at 0x7fb53e39f410>, 4, 1]}
+
+binary_sub
+0x18
+Stack{[<code.Code object at 0x7fb53e39f410>, 3]}
+
+Function exection...
+arg count:  1
+function object <code.Code object at 0x7fb53e39f410>
+load_fast
+0x7c
+Stack{[3]}
+
+load_const
+0x64
+Stack{[3, 0]}
+
+compare_op
+0x6b
+Stack{[False]}
+
+pop_jump_if_false
+0x72
+Stack{[]}
+
+load_fast
+0x7c
+Stack{[3]}
+
+load_const
+0x64
+Stack{[3, 1]}
+
+compare_op
+0x6b
+Stack{[False]}
+
+pop_jump_if_false
+0x72
+Stack{[]}
+
+load_global
+0x74
+Stack{[<code.Code object at 0x7fb53e39f410>]}
+
+load_fast
+0x7c
+Stack{[<code.Code object at 0x7fb53e39f410>, 3]}
+
+load_const
+0x64
+Stack{[<code.Code object at 0x7fb53e39f410>, 3, 1]}
+
+binary_sub
+0x18
+Stack{[<code.Code object at 0x7fb53e39f410>, 2]}
+
+Function exection...
+arg count:  1
+function object <code.Code object at 0x7fb53e39f410>
+load_fast
+0x7c
+Stack{[2]}
+
+load_const
+0x64
+Stack{[2, 0]}
+
+compare_op
+0x6b
+Stack{[False]}
+
+pop_jump_if_false
+0x72
+Stack{[]}
+
+load_fast
+0x7c
+Stack{[2]}
+
+load_const
+0x64
+Stack{[2, 1]}
+
+compare_op
+0x6b
+Stack{[False]}
+
+pop_jump_if_false
+0x72
+Stack{[]}
+
+load_global
+0x74
+Stack{[<code.Code object at 0x7fb53e39f410>]}
+
+load_fast
+0x7c
+Stack{[<code.Code object at 0x7fb53e39f410>, 2]}
+
+load_const
+0x64
+Stack{[<code.Code object at 0x7fb53e39f410>, 2, 1]}
+
+binary_sub
+0x18
+Stack{[<code.Code object at 0x7fb53e39f410>, 1]}
+
+Function exection...
+arg count:  1
+function object <code.Code object at 0x7fb53e39f410>
+load_fast
+0x7c
+Stack{[1]}
+
+load_const
+0x64
+Stack{[1, 0]}
+
+compare_op
+0x6b
+Stack{[False]}
+
+pop_jump_if_false
+0x72
+Stack{[]}
+
+load_fast
+0x7c
+Stack{[1]}
+
+load_const
+0x64
+Stack{[1, 1]}
+
+compare_op
+0x6b
+Stack{[True]}
+
+pop_jump_if_false
+0x72
+Stack{[]}
+
+load_const
+0x64
+Stack{[1]}
+
+load_global
+0x74
+Stack{[1, <code.Code object at 0x7fb53e39f410>]}
+
+load_fast
+0x7c
+Stack{[1, <code.Code object at 0x7fb53e39f410>, 2]}
+
+load_const
+0x64
+Stack{[1, <code.Code object at 0x7fb53e39f410>, 2, 2]}
+
+binary_sub
+0x18
+Stack{[1, <code.Code object at 0x7fb53e39f410>, 0]}
+
+Function exection...
+arg count:  1
+function object <code.Code object at 0x7fb53e39f410>
+load_fast
+0x7c
+Stack{[1, 0]}
+
+load_const
+0x64
+Stack{[1, 0, 0]}
+
+compare_op
+0x6b
+Stack{[1, True]}
+
+pop_jump_if_false
+0x72
+Stack{[1]}
+
+load_const
+0x64
+Stack{[1, 0]}
+
+binary_add
+0x17
+Stack{[1]}
+
+load_global
+0x74
+Stack{[1, <code.Code object at 0x7fb53e39f410>]}
+
+load_fast
+0x7c
+Stack{[1, <code.Code object at 0x7fb53e39f410>, 3]}
+
+load_const
+0x64
+Stack{[1, <code.Code object at 0x7fb53e39f410>, 3, 2]}
+
+binary_sub
+0x18
+Stack{[1, <code.Code object at 0x7fb53e39f410>, 1]}
+
+Function exection...
+arg count:  1
+function object <code.Code object at 0x7fb53e39f410>
+load_fast
+0x7c
+Stack{[1, 1]}
+
+load_const
+0x64
+Stack{[1, 1, 0]}
+
+compare_op
+0x6b
+Stack{[1, False]}
+
+pop_jump_if_false
+0x72
+Stack{[1]}
+
+load_fast
+0x7c
+Stack{[1, 1]}
+
+load_const
+0x64
+Stack{[1, 1, 1]}
+
+compare_op
+0x6b
+Stack{[1, True]}
+
+pop_jump_if_false
+0x72
+Stack{[1]}
+
+load_const
+0x64
+Stack{[1, 1]}
+
+binary_add
+0x17
+Stack{[2]}
+
+load_global
+0x74
+Stack{[2, <code.Code object at 0x7fb53e39f410>]}
+
+load_fast
+0x7c
+Stack{[2, <code.Code object at 0x7fb53e39f410>, 4]}
+
+load_const
+0x64
+Stack{[2, <code.Code object at 0x7fb53e39f410>, 4, 2]}
+
+binary_sub
+0x18
+Stack{[2, <code.Code object at 0x7fb53e39f410>, 2]}
+
+Function exection...
+arg count:  1
+function object <code.Code object at 0x7fb53e39f410>
+load_fast
+0x7c
+Stack{[2, 2]}
+
+load_const
+0x64
+Stack{[2, 2, 0]}
+
+compare_op
+0x6b
+Stack{[2, False]}
+
+pop_jump_if_false
+0x72
+Stack{[2]}
+
+load_fast
+0x7c
+Stack{[2, 2]}
+
+load_const
+0x64
+Stack{[2, 2, 1]}
+
+compare_op
+0x6b
+Stack{[2, False]}
+
+pop_jump_if_false
+0x72
+Stack{[2]}
+
+load_global
+0x74
+Stack{[2, <code.Code object at 0x7fb53e39f410>]}
+
+load_fast
+0x7c
+Stack{[2, <code.Code object at 0x7fb53e39f410>, 2]}
+
+load_const
+0x64
+Stack{[2, <code.Code object at 0x7fb53e39f410>, 2, 1]}
+
+binary_sub
+0x18
+Stack{[2, <code.Code object at 0x7fb53e39f410>, 1]}
+
+Function exection...
+arg count:  1
+function object <code.Code object at 0x7fb53e39f410>
+load_fast
+0x7c
+Stack{[2, 1]}
+
+load_const
+0x64
+Stack{[2, 1, 0]}
+
+compare_op
+0x6b
+Stack{[2, False]}
+
+pop_jump_if_false
+0x72
+Stack{[2]}
+
+load_fast
+0x7c
+Stack{[2, 1]}
+
+load_const
+0x64
+Stack{[2, 1, 1]}
+
+compare_op
+0x6b
+Stack{[2, True]}
+
+pop_jump_if_false
+0x72
+Stack{[2]}
+
+load_const
+0x64
+Stack{[2, 1]}
+
+load_global
+0x74
+Stack{[2, 1, <code.Code object at 0x7fb53e39f410>]}
+
+load_fast
+0x7c
+Stack{[2, 1, <code.Code object at 0x7fb53e39f410>, 2]}
+
+load_const
+0x64
+Stack{[2, 1, <code.Code object at 0x7fb53e39f410>, 2, 2]}
+
+binary_sub
+0x18
+Stack{[2, 1, <code.Code object at 0x7fb53e39f410>, 0]}
+
+Function exection...
+arg count:  1
+function object <code.Code object at 0x7fb53e39f410>
+load_fast
+0x7c
+Stack{[2, 1, 0]}
+
+load_const
+0x64
+Stack{[2, 1, 0, 0]}
+
+compare_op
+0x6b
+Stack{[2, 1, True]}
+
+pop_jump_if_false
+0x72
+Stack{[2, 1]}
+
+load_const
+0x64
+Stack{[2, 1, 0]}
+
+binary_add
+0x17
+Stack{[2, 1]}
+
+binary_add
+0x17
+Stack{[3]}
+
+load_global
+0x74
+Stack{[3, <code.Code object at 0x7fb53e39f410>]}
+
+load_fast
+0x7c
+Stack{[3, <code.Code object at 0x7fb53e39f410>, 5]}
+
+load_const
+0x64
+Stack{[3, <code.Code object at 0x7fb53e39f410>, 5, 2]}
+
+binary_sub
+0x18
+Stack{[3, <code.Code object at 0x7fb53e39f410>, 3]}
+
+Function exection...
+arg count:  1
+function object <code.Code object at 0x7fb53e39f410>
+load_fast
+0x7c
+Stack{[3, 3]}
+
+load_const
+0x64
+Stack{[3, 3, 0]}
+
+compare_op
+0x6b
+Stack{[3, False]}
+
+pop_jump_if_false
+0x72
+Stack{[3]}
+
+load_fast
+0x7c
+Stack{[3, 3]}
+
+load_const
+0x64
+Stack{[3, 3, 1]}
+
+compare_op
+0x6b
+Stack{[3, False]}
+
+pop_jump_if_false
+0x72
+Stack{[3]}
+
+load_global
+0x74
+Stack{[3, <code.Code object at 0x7fb53e39f410>]}
+
+load_fast
+0x7c
+Stack{[3, <code.Code object at 0x7fb53e39f410>, 3]}
+
+load_const
+0x64
+Stack{[3, <code.Code object at 0x7fb53e39f410>, 3, 1]}
+
+binary_sub
+0x18
+Stack{[3, <code.Code object at 0x7fb53e39f410>, 2]}
+
+Function exection...
+arg count:  1
+function object <code.Code object at 0x7fb53e39f410>
+load_fast
+0x7c
+Stack{[3, 2]}
+
+load_const
+0x64
+Stack{[3, 2, 0]}
+
+compare_op
+0x6b
+Stack{[3, False]}
+
+pop_jump_if_false
+0x72
+Stack{[3]}
+
+load_fast
+0x7c
+Stack{[3, 2]}
+
+load_const
+0x64
+Stack{[3, 2, 1]}
+
+compare_op
+0x6b
+Stack{[3, False]}
+
+pop_jump_if_false
+0x72
+Stack{[3]}
+
+load_global
+0x74
+Stack{[3, <code.Code object at 0x7fb53e39f410>]}
+
+load_fast
+0x7c
+Stack{[3, <code.Code object at 0x7fb53e39f410>, 2]}
+
+load_const
+0x64
+Stack{[3, <code.Code object at 0x7fb53e39f410>, 2, 1]}
+
+binary_sub
+0x18
+Stack{[3, <code.Code object at 0x7fb53e39f410>, 1]}
+
+Function exection...
+arg count:  1
+function object <code.Code object at 0x7fb53e39f410>
+load_fast
+0x7c
+Stack{[3, 1]}
+
+load_const
+0x64
+Stack{[3, 1, 0]}
+
+compare_op
+0x6b
+Stack{[3, False]}
+
+pop_jump_if_false
+0x72
+Stack{[3]}
+
+load_fast
+0x7c
+Stack{[3, 1]}
+
+load_const
+0x64
+Stack{[3, 1, 1]}
+
+compare_op
+0x6b
+Stack{[3, True]}
+
+pop_jump_if_false
+0x72
+Stack{[3]}
+
+load_const
+0x64
+Stack{[3, 1]}
+
+load_global
+0x74
+Stack{[3, 1, <code.Code object at 0x7fb53e39f410>]}
+
+load_fast
+0x7c
+Stack{[3, 1, <code.Code object at 0x7fb53e39f410>, 2]}
+
+load_const
+0x64
+Stack{[3, 1, <code.Code object at 0x7fb53e39f410>, 2, 2]}
+
+binary_sub
+0x18
+Stack{[3, 1, <code.Code object at 0x7fb53e39f410>, 0]}
+
+Function exection...
+arg count:  1
+function object <code.Code object at 0x7fb53e39f410>
+load_fast
+0x7c
+Stack{[3, 1, 0]}
+
+load_const
+0x64
+Stack{[3, 1, 0, 0]}
+
+compare_op
+0x6b
+Stack{[3, 1, True]}
+
+pop_jump_if_false
+0x72
+Stack{[3, 1]}
+
+load_const
+0x64
+Stack{[3, 1, 0]}
+
+binary_add
+0x17
+Stack{[3, 1]}
+
+load_global
+0x74
+Stack{[3, 1, <code.Code object at 0x7fb53e39f410>]}
+
+load_fast
+0x7c
+Stack{[3, 1, <code.Code object at 0x7fb53e39f410>, 3]}
+
+load_const
+0x64
+Stack{[3, 1, <code.Code object at 0x7fb53e39f410>, 3, 2]}
+
+binary_sub
+0x18
+Stack{[3, 1, <code.Code object at 0x7fb53e39f410>, 1]}
+
+Function exection...
+arg count:  1
+function object <code.Code object at 0x7fb53e39f410>
+load_fast
+0x7c
+Stack{[3, 1, 1]}
+
+load_const
+0x64
+Stack{[3, 1, 1, 0]}
+
+compare_op
+0x6b
+Stack{[3, 1, False]}
+
+pop_jump_if_false
+0x72
+Stack{[3, 1]}
+
+load_fast
+0x7c
+Stack{[3, 1, 1]}
+
+load_const
+0x64
+Stack{[3, 1, 1, 1]}
+
+compare_op
+0x6b
+Stack{[3, 1, True]}
+
+pop_jump_if_false
+0x72
+Stack{[3, 1]}
+
+load_const
+0x64
+Stack{[3, 1, 1]}
+
+binary_add
+0x17
+Stack{[3, 2]}
+
+binary_add
+0x17
+Stack{[5]}
+
+load_global
+0x74
+Stack{[5, <code.Code object at 0x7fb53e39f410>]}
+
+load_fast
+0x7c
+Stack{[5, <code.Code object at 0x7fb53e39f410>, 6]}
+
+load_const
+0x64
+Stack{[5, <code.Code object at 0x7fb53e39f410>, 6, 2]}
+
+binary_sub
+0x18
+Stack{[5, <code.Code object at 0x7fb53e39f410>, 4]}
+
+Function exection...
+arg count:  1
+function object <code.Code object at 0x7fb53e39f410>
+load_fast
+0x7c
+Stack{[5, 4]}
+
+load_const
+0x64
+Stack{[5, 4, 0]}
+
+compare_op
+0x6b
+Stack{[5, False]}
+
+pop_jump_if_false
+0x72
+Stack{[5]}
+
+load_fast
+0x7c
+Stack{[5, 4]}
+
+load_const
+0x64
+Stack{[5, 4, 1]}
+
+compare_op
+0x6b
+Stack{[5, False]}
+
+pop_jump_if_false
+0x72
+Stack{[5]}
+
+load_global
+0x74
+Stack{[5, <code.Code object at 0x7fb53e39f410>]}
+
+load_fast
+0x7c
+Stack{[5, <code.Code object at 0x7fb53e39f410>, 4]}
+
+load_const
+0x64
+Stack{[5, <code.Code object at 0x7fb53e39f410>, 4, 1]}
+
+binary_sub
+0x18
+Stack{[5, <code.Code object at 0x7fb53e39f410>, 3]}
+
+Function exection...
+arg count:  1
+function object <code.Code object at 0x7fb53e39f410>
+load_fast
+0x7c
+Stack{[5, 3]}
+
+load_const
+0x64
+Stack{[5, 3, 0]}
+
+compare_op
+0x6b
+Stack{[5, False]}
+
+pop_jump_if_false
+0x72
+Stack{[5]}
+
+load_fast
+0x7c
+Stack{[5, 3]}
+
+load_const
+0x64
+Stack{[5, 3, 1]}
+
+compare_op
+0x6b
+Stack{[5, False]}
+
+pop_jump_if_false
+0x72
+Stack{[5]}
+
+load_global
+0x74
+Stack{[5, <code.Code object at 0x7fb53e39f410>]}
+
+load_fast
+0x7c
+Stack{[5, <code.Code object at 0x7fb53e39f410>, 3]}
+
+load_const
+0x64
+Stack{[5, <code.Code object at 0x7fb53e39f410>, 3, 1]}
+
+binary_sub
+0x18
+Stack{[5, <code.Code object at 0x7fb53e39f410>, 2]}
+
+Function exection...
+arg count:  1
+function object <code.Code object at 0x7fb53e39f410>
+load_fast
+0x7c
+Stack{[5, 2]}
+
+load_const
+0x64
+Stack{[5, 2, 0]}
+
+compare_op
+0x6b
+Stack{[5, False]}
+
+pop_jump_if_false
+0x72
+Stack{[5]}
+
+load_fast
+0x7c
+Stack{[5, 2]}
+
+load_const
+0x64
+Stack{[5, 2, 1]}
+
+compare_op
+0x6b
+Stack{[5, False]}
+
+pop_jump_if_false
+0x72
+Stack{[5]}
+
+load_global
+0x74
+Stack{[5, <code.Code object at 0x7fb53e39f410>]}
+
+load_fast
+0x7c
+Stack{[5, <code.Code object at 0x7fb53e39f410>, 2]}
+
+load_const
+0x64
+Stack{[5, <code.Code object at 0x7fb53e39f410>, 2, 1]}
+
+binary_sub
+0x18
+Stack{[5, <code.Code object at 0x7fb53e39f410>, 1]}
+
+Function exection...
+arg count:  1
+function object <code.Code object at 0x7fb53e39f410>
+load_fast
+0x7c
+Stack{[5, 1]}
+
+load_const
+0x64
+Stack{[5, 1, 0]}
+
+compare_op
+0x6b
+Stack{[5, False]}
+
+pop_jump_if_false
+0x72
+Stack{[5]}
+
+load_fast
+0x7c
+Stack{[5, 1]}
+
+load_const
+0x64
+Stack{[5, 1, 1]}
+
+compare_op
+0x6b
+Stack{[5, True]}
+
+pop_jump_if_false
+0x72
+Stack{[5]}
+
+load_const
+0x64
+Stack{[5, 1]}
+
+load_global
+0x74
+Stack{[5, 1, <code.Code object at 0x7fb53e39f410>]}
+
+load_fast
+0x7c
+Stack{[5, 1, <code.Code object at 0x7fb53e39f410>, 2]}
+
+load_const
+0x64
+Stack{[5, 1, <code.Code object at 0x7fb53e39f410>, 2, 2]}
+
+binary_sub
+0x18
+Stack{[5, 1, <code.Code object at 0x7fb53e39f410>, 0]}
+
+Function exection...
+arg count:  1
+function object <code.Code object at 0x7fb53e39f410>
+load_fast
+0x7c
+Stack{[5, 1, 0]}
+
+load_const
+0x64
+Stack{[5, 1, 0, 0]}
+
+compare_op
+0x6b
+Stack{[5, 1, True]}
+
+pop_jump_if_false
+0x72
+Stack{[5, 1]}
+
+load_const
+0x64
+Stack{[5, 1, 0]}
+
+binary_add
+0x17
+Stack{[5, 1]}
+
+load_global
+0x74
+Stack{[5, 1, <code.Code object at 0x7fb53e39f410>]}
+
+load_fast
+0x7c
+Stack{[5, 1, <code.Code object at 0x7fb53e39f410>, 3]}
+
+load_const
+0x64
+Stack{[5, 1, <code.Code object at 0x7fb53e39f410>, 3, 2]}
+
+binary_sub
+0x18
+Stack{[5, 1, <code.Code object at 0x7fb53e39f410>, 1]}
+
+Function exection...
+arg count:  1
+function object <code.Code object at 0x7fb53e39f410>
+load_fast
+0x7c
+Stack{[5, 1, 1]}
+
+load_const
+0x64
+Stack{[5, 1, 1, 0]}
+
+compare_op
+0x6b
+Stack{[5, 1, False]}
+
+pop_jump_if_false
+0x72
+Stack{[5, 1]}
+
+load_fast
+0x7c
+Stack{[5, 1, 1]}
+
+load_const
+0x64
+Stack{[5, 1, 1, 1]}
+
+compare_op
+0x6b
+Stack{[5, 1, True]}
+
+pop_jump_if_false
+0x72
+Stack{[5, 1]}
+
+load_const
+0x64
+Stack{[5, 1, 1]}
+
+binary_add
+0x17
+Stack{[5, 2]}
+
+load_global
+0x74
+Stack{[5, 2, <code.Code object at 0x7fb53e39f410>]}
+
+load_fast
+0x7c
+Stack{[5, 2, <code.Code object at 0x7fb53e39f410>, 4]}
+
+load_const
+0x64
+Stack{[5, 2, <code.Code object at 0x7fb53e39f410>, 4, 2]}
+
+binary_sub
+0x18
+Stack{[5, 2, <code.Code object at 0x7fb53e39f410>, 2]}
+
+Function exection...
+arg count:  1
+function object <code.Code object at 0x7fb53e39f410>
+load_fast
+0x7c
+Stack{[5, 2, 2]}
+
+load_const
+0x64
+Stack{[5, 2, 2, 0]}
+
+compare_op
+0x6b
+Stack{[5, 2, False]}
+
+pop_jump_if_false
+0x72
+Stack{[5, 2]}
+
+load_fast
+0x7c
+Stack{[5, 2, 2]}
+
+load_const
+0x64
+Stack{[5, 2, 2, 1]}
+
+compare_op
+0x6b
+Stack{[5, 2, False]}
+
+pop_jump_if_false
+0x72
+Stack{[5, 2]}
+
+load_global
+0x74
+Stack{[5, 2, <code.Code object at 0x7fb53e39f410>]}
+
+load_fast
+0x7c
+Stack{[5, 2, <code.Code object at 0x7fb53e39f410>, 2]}
+
+load_const
+0x64
+Stack{[5, 2, <code.Code object at 0x7fb53e39f410>, 2, 1]}
+
+binary_sub
+0x18
+Stack{[5, 2, <code.Code object at 0x7fb53e39f410>, 1]}
+
+Function exection...
+arg count:  1
+function object <code.Code object at 0x7fb53e39f410>
+load_fast
+0x7c
+Stack{[5, 2, 1]}
+
+load_const
+0x64
+Stack{[5, 2, 1, 0]}
+
+compare_op
+0x6b
+Stack{[5, 2, False]}
+
+pop_jump_if_false
+0x72
+Stack{[5, 2]}
+
+load_fast
+0x7c
+Stack{[5, 2, 1]}
+
+load_const
+0x64
+Stack{[5, 2, 1, 1]}
+
+compare_op
+0x6b
+Stack{[5, 2, True]}
+
+pop_jump_if_false
+0x72
+Stack{[5, 2]}
+
+load_const
+0x64
+Stack{[5, 2, 1]}
+
+load_global
+0x74
+Stack{[5, 2, 1, <code.Code object at 0x7fb53e39f410>]}
+
+load_fast
+0x7c
+Stack{[5, 2, 1, <code.Code object at 0x7fb53e39f410>, 2]}
+
+load_const
+0x64
+Stack{[5, 2, 1, <code.Code object at 0x7fb53e39f410>, 2, 2]}
+
+binary_sub
+0x18
+Stack{[5, 2, 1, <code.Code object at 0x7fb53e39f410>, 0]}
+
+Function exection...
+arg count:  1
+function object <code.Code object at 0x7fb53e39f410>
+load_fast
+0x7c
+Stack{[5, 2, 1, 0]}
+
+load_const
+0x64
+Stack{[5, 2, 1, 0, 0]}
+
+compare_op
+0x6b
+Stack{[5, 2, 1, True]}
+
+pop_jump_if_false
+0x72
+Stack{[5, 2, 1]}
+
+load_const
+0x64
+Stack{[5, 2, 1, 0]}
+
+binary_add
+0x17
+Stack{[5, 2, 1]}
+
+binary_add
+0x17
+Stack{[5, 3]}
+
+binary_add
+0x17
+Stack{[8]}
+
+print_item
+0x47
+8
+Stack{[]}
+
+print_newline
+0x48
+
+Stack{[]}
+
+load_const
+0x64
+Stack{[0]}
+
+
