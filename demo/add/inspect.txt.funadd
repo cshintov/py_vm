@@ -1,0 +1,56 @@
+magic 03f30d0a
+moddate 59eaa95d (Fri Oct 18 22:07:45 2019)
+code
+   argcount 0
+   nlocals 0
+   stacksize 3
+   flags 0040
+   code
+      6400008400005a00006500006401006402008302005a0100650100474864030053
+  1           0 LOAD_CONST               0 (<code object add at 0x7ff0fa983cb0, file "demo/add/fun_add.py", line 1>)
+              3 MAKE_FUNCTION            0
+              6 STORE_NAME               0 (add)
+
+  4           9 LOAD_NAME                0 (add)
+             12 LOAD_CONST               1 (5)
+             15 LOAD_CONST               2 (6)
+             18 CALL_FUNCTION            2
+             21 STORE_NAME               1 (c)
+
+  6          24 LOAD_NAME                1 (c)
+             27 PRINT_ITEM          
+             28 PRINT_NEWLINE       
+             29 LOAD_CONST               3 (None)
+             32 RETURN_VALUE        
+   consts
+      code
+         argcount 2
+         nlocals 2
+         stacksize 2
+         flags 0043
+         code 7c00007c01001753
+  2           0 LOAD_FAST                0 (a)
+              3 LOAD_FAST                1 (b)
+              6 BINARY_ADD          
+              7 RETURN_VALUE        
+         consts
+            None
+         names ()
+         varnames ('a', 'b')
+         freevars ()
+         cellvars ()
+         filename 'demo/add/fun_add.py'
+         name 'add'
+         firstlineno 1
+         lnotab 0001
+      5
+      6
+      None
+   names ('add', 'c')
+   varnames ()
+   freevars ()
+   cellvars ()
+   filename 'demo/add/fun_add.py'
+   name '<module>'
+   firstlineno 1
+   lnotab 09030f02

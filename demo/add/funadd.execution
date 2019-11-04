@@ -1,0 +1,79 @@
+****************
+length of code  33
+['0x84', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x65', '0x0', '0x0', '0x64', '0x1', '0x0', '0x64', '0x2', '0x0', '0x83', '0x2', '0x0', '0x5a', '0x1', '0x0', '0x65', '0x1', '0x0', '0x47', '0x48', '0x64', '0x3', '0x0', '0x53']
+4 constants
+0 non int constant
+****************
+length of code  8
+['0x7c', '0x0', '0x0', '0x7c', '0x1', '0x0', '0x17', '0x53']
+1 constants
+0 0
+names  {}
+varnames  [0, 0]
+name  2
+global names  {0: [0], 1: [0], 2: [<code.Code object at 0x7f7c0cf00410>], 3: [0], 4: [0]}
+--------------------------------
+1 5
+2 6
+3 0
+names  {0: [<code.Code object at 0x7f7c0cf00410>], 1: [0]}
+varnames  []
+name  4
+global names  {0: [0], 1: [0], 2: [<code.Code object at 0x7f7c0cf00410>], 3: [0], 4: [0]}
+--------------------------------
+
+make_function
+0x84
+Stack{[]}
+
+load_name
+0x65
+Stack{[<code.Code object at 0x7f7c0cf00410>]}
+
+load_const
+0x64
+Stack{[<code.Code object at 0x7f7c0cf00410>, 5]}
+
+load_const
+0x64
+Stack{[<code.Code object at 0x7f7c0cf00410>, 5, 6]}
+
+Function exection...
+arg count:  2
+function object <code.Code object at 0x7f7c0cf00410>
+load_fast
+0x7c
+Stack{[5]}
+
+load_fast
+0x7c
+Stack{[5, 6]}
+
+binary_add
+0x17
+Stack{[11]}
+
+store_name
+0x5a
+{0: [<code.Code object at 0x7f7c0cf00410>], 1: 11}
+Stack{[]}
+
+load_name
+0x65
+Stack{[11]}
+
+print_item
+0x47
+11
+Stack{[]}
+
+print_newline
+0x48
+
+Stack{[]}
+
+load_const
+0x64
+Stack{[0]}
+
+
